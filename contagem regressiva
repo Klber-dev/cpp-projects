@@ -1,1 +1,15 @@
+#include <iostream>
 
+int main (){
+	int n;
+	std::cout << "Insira um numero" << std::endl;
+	std::cin >> n;
+
+	if(n < 0){
+		std::cout << "Valor invalido.";	
+		return 0;
+	}
+	for(;n >= 0; n--){
+		std::cout << n << " ";
+	}	
+}
